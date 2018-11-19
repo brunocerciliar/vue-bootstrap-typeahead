@@ -99,7 +99,7 @@ export default {
 
   computed: {
     sizeClasses() {
-      return this.size ? `input-group input-group-${this.size}` : 'input-group'
+      return this.size ? `form-group input-group-${this.size}` : 'form-group'
     },
 
     formattedData() {
